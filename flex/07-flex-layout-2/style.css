@@ -11,8 +11,8 @@ body {
   background: darkmagenta;
   color: white;
   font-size: 32px;
-  font-weight: bold;
-  padding: 0 0 0 16px;
+  font-weight: 900;
+  padding: 0 16px;
   display: flex;
   align-items: center;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .content {
-  padding: 16px;
+  padding: 32px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -38,9 +38,9 @@ body {
 }
 
 .sidebar {
-  width: 320px;
+  width: 300px;
   background: royalblue;
-  padding: 8px;
+  padding: 16px;
   flex-shrink: 0;
 }
 
@@ -48,8 +48,8 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  margin: 32px;
-  padding: 8px;
+  margin: 16px;
+  padding: 16px;
   width: 300px;
   height: auto;
 }
@@ -61,7 +61,7 @@ ul {
 }
 
 li {
-  padding: 12px 0 0 0;
+  margin: 0 0 16px 0;
 }
 
 a {
