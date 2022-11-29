@@ -12,9 +12,9 @@ body {
   color: white;
   font-size: 32px;
   font-weight: bold;
+  padding: 0 0 0 16px;
   display: flex;
   align-items: center;
-  padding: 0 0 0 16px;
 }
 
 .main {
@@ -25,7 +25,6 @@ body {
 .content {
   padding: 16px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
